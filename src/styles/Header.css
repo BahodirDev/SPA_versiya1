@@ -1,0 +1,17 @@
+.header{
+    background: rgb(6,87,100);
+}
+.color{
+    color: rgb(25, 140, 146);
+}
+
+
+
+
+/* SubHeader */
+.subHeader{
+    background: #f1f1f1;
+    height:35px;
+    width: 100%;
+    box-shadow: 3px 9px 12px #808080;
+}

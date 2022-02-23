@@ -1,0 +1,109 @@
+.content{
+    min-height: calc(100vh - 74px - 60px);
+  
+}
+.list{
+    margin: 80px 0px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px,1fr));
+    gap: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    color: #455168;
+
+}
+.card-content{
+    flex-grow: 1;
+}
+
+
+/* Category filters */
+
+.listMeal{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(200px, 1fr));
+    gap: 1rem;
+}
+#ListMealBtn{
+    position: fixed;
+    top: 5rem;
+    right: 3rem;
+    z-index: 12;
+}
+@media (max-width:767px) {
+    #ListMealBtn{
+        position: fixed;
+        right: .7rem;
+        z-index: 12;
+    }
+}
+@media (max-width:667px) {
+    #ListMealBtn{
+        position: fixed;
+        top: 3rem;
+        right: 1rem;
+        z-index: 12;
+    }
+}
+@media (max-width:844px) {
+    #ListMealBtn{
+        position: fixed;
+        top: 4rem;
+        right: 1rem;
+        z-index: 12;
+    }
+}
+@media (max-width:915px) {
+    #ListMealBtn{
+        position: fixed;
+        top: 3rem;
+        right: 1rem;
+        z-index: 12;
+    }
+}
+@media (max-width:1180px) {
+    #ListMealBtn{
+        position: fixed;
+        top: 4rem;
+        right: 1rem;
+        z-index: 12;
+    }
+}
+@media (max-width:653px) {
+    #ListMealBtn{
+        position: fixed;
+        top: 3rem;
+        right: .5rem;
+        z-index: 12;
+    }
+    #recipeBtn{
+        position: fixed;
+        top: 3.5rem;
+        right: .5rem;
+    }
+}
+@media (min-width:800px) {
+    #ListMealBtn{
+        position: fixed;
+        top: 2.5rem;
+        right: .5rem;
+        z-index: 12;
+    }
+}
+
+@media (min-width:914px) {
+    #recipeBtn{
+        position: fixed;
+        top: 3.5rem;
+        right: .5rem;
+    }
+}
+@media (min-width:1368px) {
+    #recipeBtn{
+        position: fixed;
+        top: 1.5rem;
+        right: 2rem;
+    }
+}
